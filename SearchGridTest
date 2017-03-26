@@ -1,0 +1,43 @@
+import requests
+import json
+
+headers = {}
+
+
+def authenticate():
+    authentication_response = requests.post('https://www.bigparser.com/APIServices/api/common/login', json={
+        "emailId": "codecreatr@gmail.com",
+        "password": "vars12345",
+        "loggedIn": True
+    });
+    headers["authId"] = authentication_response.json()["authId"]
+
+
+def search_grid(query):
+    search_response = requests.post('https://www.bigparser.com/APIServices/api/query/table', headers=headers, json={
+      "gridId": "58d7993d1984570570e36ad7",
+      "selectColumnsStoreName": [
+        query , "5"
+      ],
+      "rowCount": 50,
+      "tags": [
+        {
+          "Exception Name": query,
+        }
+      ],
+      "keywords": [
+        query
+      ],
+    }
+
+
+    )
+
+    search_response_json = search_response.json()
+
+    return search_response_json
+
+
+authenticate()
+search_results = search_grid("InstantiationException");
+print (search_results)

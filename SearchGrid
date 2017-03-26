@@ -1,0 +1,39 @@
+import requests
+import json
+
+headers = {}
+
+
+def authenticate():
+    authentication_response = requests.post('https://www.bigparser.com/APIServices/api/common/login', json={
+        "emailId": "codecreatr@gmail.com",
+        "password": "vars12345",
+        "loggedIn": True
+    });
+    headers["authId"] = authentication_response.json()["authId"]
+
+
+def search_grid(query):
+    search_response = requests.post('https://www.bigparser.com/APIServices/api/query/table', headers=headers, json={
+        "gridId": "58d704c81984570570d3ac39",
+        "selectColumnsStoreName": [
+            5
+        ],
+        "rowCount": 50,
+        "tags": [
+            query
+        ],
+        "keywords": [
+            {}
+        ]
+    })
+
+    print(search_response.text)
+    search_response_json = search_response.json()
+
+    return search_response_json
+
+
+authenticate()
+search_results = search_grid("IllegalArgumentException");
+print (search_results)
