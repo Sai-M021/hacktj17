@@ -1,0 +1,48 @@
+	You are trying to use your computer to solve a mathematical problem that you cannot solve yourself. Read up on your arithmetics and try again.
+	See IndexOutOfBoundsException. The difference is that this exception refers to more than one finger.
+	You have used all your arrays and need to buy more from the array store.
+	You need to stay in the class or caste you were born into. Java will not accept dailits acting as kshatriyas or noblemen pretending to be working class. Note the spelling mistake (of caste) that was introduced in Java 1.0 and has not been corrected for backwards compatability reasons.
+	You seem to have invented your own class. There are also caste systems that are not yet implemented in Java, most notibly the balinese caste system. For example, if you are a wesia, use the indian counterpart vaishya.
+	You are a clone. Find the original you, tell him what you want to do and then kill yourself.
+	You are a burgler that are running a Java program during a burglery. Please finish stealing the computer, leave the premises and try again.
+	You have tried to protest against a previous exception.
+	Please turn your computer screen back on.
+	You come from a state that is not yet recognized by the UN, possibly Kurdistan or Palestine. Get a real citizenship, recompile your java code and try again.
+	One of the screws in your computer is threaded the wrong way. Please contact your hardware vendor.
+	You have put your index finger in an unacceptable place. Reposition it and try again.
+	Not everything can happen instantly. Please be more patient.
+	Tell your colleagues, room-mates etc. to leave you alone while you are working.
+	You have created an array with negative size. This can cause information to be lost and in the long run the Universe will be destroyed. Be happy that Java noticed what you were doing and DON'T DO IT AGAIN.
+	You are trying to have a picknick on a field that does not exist. You can also get this exception if you try to visit an airfield that in fact does exist, but has been classified as top-secret. I'd give you examples, but then I'd have to kill you.
+	Don't use that method! Please, do things like we have always done.
+	You do not own a dog. Get one, for example a brittany spaniel, and try again.
+	You are using outdated units of measurement, for example inches or pints. Convert to SI. There is a known bug that causes this exception to be thrown if you are very short or tall.
+	You cannot run fast enough, possibly due to obesity. Turn off your computer and go out and get som exercise.
+	You have been deemed a threat to nationaly security. Please sit still and wait for the authorities to come and get you.
+	Your panties have shiften out of place. Adjust them and try again. You can also get this exception if you are not wearing any panties at all.
+	You are trying to have an operation that for som reason, ethical or otherwise, is not supported by Java. Examples of this include unneeded amputations, for example circumcisions. Please stop abusing your body and do not remove pieces of you child.
+	Someone else has modified your Java code. You should probably change your password.
+	In order for Java to work, you must have a stack of Java books on your desk. Actually, one is enough if it is really thick.
+	You are too poor to be using Java. Switch to a cheaper language (such as Whitespace, Shakespeare, Cow, Spaghetti or C#).
+	There are only four elements (earth, water, air, fire). The Fifth Element is just a movie.
+	You are bugged by too many secret organizations. Expect a SecurityException soon.
+	You are using AWT, which means your GUI will be ugly. This exception is only a warning and can be ignored.
+	Your layout is ugly, or you have selected a bad font, or too many fonts. Please consult a professional designer.
+	Java thinks you are too stupid to be a programmer.
+	One of your hardware components (e.g. harddrive, CPU, RAM) is broken. Please contact your hardware vendor.
+	You have been trying to incinerate something noncombustible. It is also possible that you have tried turning yourself into a fish, but that's rare.
+	You get this exception because you don't know what EOF stands for. Well, I'm not going to tell you, Mr Ignoramus.
+	A carpenter should always know where his tools are.
+	You have been using IO despite of an earlier IOException and your activities have been interrupted.
+	See ClassNotFoundException.
+	Objection overruled, as they say in court.
+	IO stands for input/output and has to do with sending and recieving data. IO is a security problem and should not be used.
+	This can mean two things. Either something is inactive and needs to be active, or something is active and needs to be inactive. Activate and inactivate things randomly until things work.
+	You are trying to make a TV series based on a movie.
+	You have issued a stream of objections. Please limit yourself to one at a time and wait for the judge to make a ruling before issuing a new one. See InvalidObjectException.
+	You seem to think that some optional data is required. Don't make things harder than they are.
+	Your data stream is corrupted, which means that it has been stealing packages and selling them on the black market.
+	You have tried to synchronize your failures with someone else and you have turned out to be a bigger failure that that person. Try to find someone on your own level.
+	If you want to send something coded over the network, you have to file your encryption key with the NSA. If you don't, you will be regarded as a terrorist and dealt with in the appropriate way. If you get this exception, you should run away very fast indeed.
+	UTF stands for Universal Transmission Format and is a way of transmitting data that works regardless of which format you use. You have tried to transmit data over UTF using the wrong format.
+	You need to write the word "aborted" somewhere in your program. It usually doesn't matter where, you just have to do it.

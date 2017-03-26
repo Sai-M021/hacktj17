@@ -1,0 +1,212 @@
+Specific Exceptions
+Exception Name	Type	Package	Notes
+AbstractMethodError	E	java.lang
+AccessControlException	R	java.security	This is an exception that is thrown whenever a reference is made to a non-existent ACL (Access Control List) (Access Control List). notes.
+AccessException	C	java.rmi	Thrown by certain methods of the java.rmi.Naming class.
+AclNotFoundException	C	java.security.acl	Thrown whenever a reference is made to a non-existent ACL (Access Control List).
+ActivateFailedException	C	java.rmi.activation	thrown by the RMI (Remote Method Invocation) runtime when activation fails during a remote call to an activatable object.
+ActivationException	C	java.rmi.activation
+AlreadyBoundException	C	javax.naming
+ApplicationException	C	org.omg.CORBA.portable	Used for reporting application level exceptions between ORBs (Object Request Brokers) and stubs
+ArithmeticException	R	java.lang	Most commonly a divide by zero. notes.
+ArrayIndexOutOfBoundsException	R	java.lang	Can be handled more generically with IndexOutOfBoundsException. notes.
+ArrayStoreException	R	java.lang	Thrown to indicate that an attempt has been made to store the wrong type of object into an array of objects. notes.
+AttributeInUseException	C	javax.naming.directory
+AttributeModificationException	C	javax.naming.directory
+AuthenticationException	C	javax.naming
+AuthenticationNotSupportedException	C	javax.naming
+AWTError	E	java.awt
+AWTError	E	java/awt
+AWTException	C	java.awt
+BadLocationException	C	javax.swing.text	This exception is to report bad locations within a document model.
+BatchUpdateException	C	java.sql
+BindException	C	java.net	Signals that an error occurred while attempting to bind a socket to a local address and port
+CannotProceedException	C	javax.naming
+CannotRedoException	R	javax.swing.undo
+CannotUndoException	R	javax.swing.undo
+CertificateEncodingException	C	java.security.cert
+CertificateException	C	java.security.cert
+CertificateExpiredException	C	java.security.cert
+CertificateNotYetValidException	C	java.security.cert
+CertificateParsingException	C	java.security.cert
+ChangedCharSetException	C	javax.swing.text
+CharConversionException	C	java.io
+ClassCastException	R	java.lang	notes.
+ClassCircularityError	E	java.lang
+ClassFormatError	E	java.lang	notes.
+ClassNotFoundException	C	java.lang	notes.
+CloneNotSupportedException	C	java.lang
+CMMException	R	java.awt.color
+CommunicationException	C	javax.naming
+ConcurrentModificationException	R	java.util	This exception may be thrown by methods that have detected concurrent modification of a backing object when such modification is not permissible, e. g. two threads modifying a HashMap simultaneously. notes.
+ConfigurationException	C	javax.naming
+ConnectException	C	java.rmi
+ConnectIOException	C	java.rmi
+ContextNotEmptyException	C	javax.naming
+CRLException	C	java.security.cert	CRL (Certificate Revocation List) (Certificate Revocation List) Exception.
+DataFormatException	C	java.util.zip
+DigestException	C	java.security
+EmptyStackException	R	java.util	Thrown by methods in the Stack class to indicate that the stack is empty. Does not refer to the system stack.
+EOFException	C	java.io	notes.
+Error	E	java.lang	Catches any serious error such as OutOfMemoryError that you unlikely can recover from.
+Exception	C	java.lang	generic. Catches any specify Exception plus general Runtime exceptions, but not Errors.
+ExceptionInInitializerError	E	java.lang	notes.
+ExceptionInInitializerError	E	java.lang
+ExpandVetoException	C	javax.swing.tree
+ExportException	C	java.rmi.server
+FileNotFoundException	C	java.io
+FontFormatException	C	java.awt
+GeneralSecurityException	C	java.security
+IllegalAccessError	E	java.lang	notes.
+IllegalAccessException	C	java.lang	Thrown when an application tries to load in a class, but the currently executing method does not have access to the definition of the specified class, because the class is not public and in another package.
+IllegalArgumentException	R	java.lang	Most common exception to reject a bad parameter to a method.
+IllegalComponentStateException	R	java.awt
+IllegalMonitorStateException	R	java.lang
+IllegalPathStateException	R	java.awt.geom
+IllegalStateException	R	java.lang	Signals that a method has been invoked at an illegal or inappropriate time.
+IllegalThreadStateException	R	java.lang
+ImagingOpException	R	java.awt.image
+IncompatibleClassChangeError	E	java.lang	notes.
+IndexOutOfBoundsException	R	java.lang	Similar to ArrayIndexOutOfBoundsException for ArrayList.
+IndirectionException	R	org.omg.CORBA.portable
+InstantiationError	E	java.lang
+InstantiationException	C	java.lang
+InsufficientResourcesException	C	javax.naming
+InternalError	E	java.lang
+InterruptedException	C	java.lang	Thrown when a thread is waiting, sleeping, or otherwise paused for a long time and another thread interrupts it using the interrupt method in class Thread.
+InterruptedIOException	C	java.io
+InterruptedNamingException	C	javax.naming
+IntrospectionException	C	java.beans
+InvalidAlgorithmParameterException	C	java.security	This is a GeneralSecurityException. See IllegalArgumentException.
+InvalidAttributeIdentifierException	C	javax.naming.directory
+InvalidAttributesException	C	javax.naming.directory
+InvalidAttributeValueException	C	javax.naming.directory
+InvalidClassException	C	java.io	notes.
+InvalidDnDOperationException	R	java.awt.dnd
+InvalidKeyException	C	java.security
+InvalidKeySpecException	C	java.security.spec
+InvalidMidiDataException	C	javax.sound.midi
+InvalidNameException	C	javax.naming
+InvalidObjectException	C	java.io
+InvalidParameterException	R	java.security
+InvalidParameterSpecException	C	java.security.spec
+InvalidSearchControlsException	C	javax.naming.directory
+InvalidSearchFilterException	C	javax.naming.directory
+InvalidTransactionException	C	javax.transaction
+InvocationTargetException	C	java.lang.reflect
+IOException	C	java.io
+JarException	C	java.util.jar
+KeyException	C	java.security
+KeyManagementException	C	java.security
+KeyStoreException	C	java.security
+LastOwnerException	C	java.security.acl
+LdapReferralException	C	javax.naming.ldap
+LimitExceededException	C	javax.naming
+LineUnavailableException	C	javax.sound.sampled
+LinkageError	E	java.lang
+LinkException	C	javax.naming
+LinkLoopException	C	javax.naming
+MalformedLinkException	C	javax.naming
+MalformedURLException	C	java.net
+MarshalException	C	java.rmi
+MidiUnavailableException	C	javax.sound.midi
+MimeTypeParseException	C	java.awt.datatransfer
+MissingResourceException	R	java.util
+NameAlreadyBoundException	C	javax.naming
+NameNotFoundException	C	javax.naming
+NamingException	C	javax.naming
+NamingSecurityException	C	javax.naming
+NegativeArraySizeException	R	java.lang
+NoClassDefFoundError	E	java.lang	notes.
+NoInitialContextException	C	javax.naming
+NoninvertibleTransformException	C	java.awt.geom
+NoPermissionException	C	javax.naming
+NoRouteToHostException	C	java.net
+NoSuchAlgorithmException	C	java.security
+NoSuchAttributeException	C	javax.naming.directory
+NoSuchElementException	R	java.util
+NoSuchFieldError	E	java.lang
+NoSuchFieldException	C	java.lang
+NoSuchMethodError	E	java.lang	notes.
+NoSuchMethodException	C	java.lang
+NoSuchObjectException	C	java.rmi
+NoSuchProviderException	C	java.security	notes.
+NotActiveException	C	java.io	Thrown when serialization or deserialization is not active
+NotBoundException	C	java.rmi
+NotContextException	C	javax.naming
+NotOwnerException	C	java.security.acl
+NotSerializableException	C	java.io	notes.
+NullPointerException	R	java.lang	Actually a null reference exception. notes.
+NumberFormatException	R	java.lang	Commonly thrown when a String is converted to internal binary numeric format. notes.
+ObjectStreamException	C	java.io
+OperationNotSupportedException	C	javax.naming
+OptionalDataException	C	java.io	Unexpected data appeared in an ObjectInputStream trying to read an Object. Occurs when the stream contains primitive data instead of the object that is expected by readObject. The EOF (End Of File) flag in the exception is true indicating that no more primitive data is available. The count field contains the number of bytes available to read.
+OutOfMemoryError	E	java.lang	By the time this happens it is almost too late. gc has already done what it could. Possibly some process has just started gobbling RAM, or perhaps the problem you are trying to solve is just too big for the size of the allotted virtual ram. You can control that with the java.exe command line switches.
+ParseException	C	java.text
+PartialResultException	C	javax.naming
+PolicyError	E	org.omg.CORBA
+PrinterAbortException	C	java.awt.print
+PrinterException	C	java.awt.print
+PrinterIOException	C	java.awt.print
+PrivilegedActionException	C	java.security
+ProfileDataException	R	java.awt.color
+PropertyVetoException	C	java.beans
+ProtocolException	C	java.net
+ProviderException	R	java.security
+RasterFormatException	R	java.awt.image
+ReferralException	C	javax.naming
+RemarshalException	C	org.omg.CORBA.portable
+RemoteException	C	java.rmi
+RMISecurityException	C	java.rmi
+RuntimeException	R	java.lang	Error that can occur in almost any code e.g. NullPointerException. Use this when to catch general errors when no specific exception is being thrown.
+SchemaViolationException	C	javax.naming.directory
+SecurityException	R	java.lang
+ServerCloneException	C	java.rmi.server
+ServerError	E	java.rmi
+ServerException	C	java.rmi
+ServerNotActiveException	C	java.rmi.server
+ServerRuntimeException	C	java.rmi
+ServiceUnavailableException	C	javax.naming
+SignatureException	C	java.security
+SizeLimitExceededException	C	javax.naming
+SkeletonMismatchException	C	java.rmi.server
+SkeletonNotFoundException	C	java.rmi.server
+SocketException	C	java.net
+SocketSecurityException	C	java.rmi.server
+SQLException	C	java.sql
+StackOverflowError	E	java.lang	notes.
+StreamCorruptedException	C	java.io	ObjectStream data are scrambled. notes.
+StringIndexOutOfBoundsException	R	java.lang	Can be handled more generically with IndexOutOfBoundsException. notes.
+StubNotFoundException	C	java.rmi
+SyncFailedException	C	java.io
+SystemException	R	org.omg.CORBA
+TimeLimitExceededException	C	javax.naming
+TooManyListenersException	C	java.util
+TransactionRequiredException	C	javax.transaction
+TransactionRolledbackException	C	javax.transaction
+UndeclaredThrowableException	R	java.lang.reflect
+UnexpectedException	R	java.rmi
+UnknownError	E	java.lang
+UnknownException	R	org.omg.CORBA.portable
+UnknownGroupException	C	java.rmi.activation
+UnknownHostException	C	java.rmi
+UnknownHostException	C	java.net
+UnknownObjectException	C	java.rmi.activation
+UnknownServiceException	C	java.net
+UnknownUserException	C	org.omg.CORBA
+UnmarshalException	C	java.rmi	notes.
+UnrecoverableKeyException	C	java.security
+UnsatisfiedLinkError	E	java.lang	notes.
+UnsupportedAudioFileException	C	javax.sound.sampled
+UnsupportedClassVersionError	E	java.lang	notes.
+UnsupportedDataTypeException	C	java.io	undocumented. notes.
+UnsupportedEncodingException	C	java.io
+UnsupportedFlavorException	C	java.awt.datatransfer
+UnsupportedLookAndFeelException	C	javax.swing
+UnsupportedOperationException	R	java.lang	Use for code not yet implemented, or that you deliberately did not implement.
+UserException	C	org.omg.CORBA
+UTFDataFormatException	C	java.io
+VerifyError	E	java.lang	notes.
+VirtualMachineError	E	java.lang
+WriteAbortedException	C	java.io
+ZipException	C	java.util.zip	notes.
