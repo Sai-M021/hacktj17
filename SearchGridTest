@@ -15,7 +15,7 @@ def authenticate():
 
 def search_grid(query):
     search_response = requests.post('https://www.bigparser.com/APIServices/api/query/table', headers=headers, json={
-      "gridId": "58d7993d1984570570e36ad7",
+      "gridId": "58d7c2ee1984570570e36fa1",
       "selectColumnsStoreName": [
         query , "5"
       ],
@@ -39,5 +39,8 @@ def search_grid(query):
 
 
 authenticate()
-search_results = search_grid("InstantiationException");
-print (search_results)
+search_results = search_grid("AssociationException");
+
+print("Error: " + (search_results['keywords'][0]['keyWord']))
+
+print ("Explanation: " + (search_results['rows'][0]['data'][1]))
