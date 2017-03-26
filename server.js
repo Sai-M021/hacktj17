@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+app.use(express.static('/Users/Vinay/IdeaProjects/hacktj17/images'));
+
 
 const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectID;
@@ -14,44 +16,48 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get('/', (request, response) => {
-  response.sendFile(path.resolve(__dirname) + '/Log In.html');
+  response.sendFile(path.resolve(__dirname) + '/Login.html');
 
 });
+
+
+
+
 
 app.get('/Homescreen.html', (request, response) => {
 
     response.sendFile(path.resolve(__dirname) + '/Homescreen.html');
 });
 
-app.get('/community', (request, response) => {
+app.get('/Community.html', (request, response) => {
 
     response.sendFile(path.resolve(__dirname) + '/Community.html');
 });
 
-app.get('/tools', (request, response) => {
+app.get('/Tools.html', (request, response) => {
 
     response.sendFile(path.resolve(__dirname) + '/Tools.html');
 });
 
 
-app.get('/learn', (request, response) => {
+app.get('/Learn.html', (request, response) => {
 
 
     response.sendFile(path.resolve(__dirname) + '/Learn.html');
 });
 
 
-app.get('/login', (request, response) => {
+app.get('/Login.html', (request, response) => {
 
 
-    response.sendFile(path.resolve(__dirname) + '/Log In.html');
+    response.sendFile(path.resolve(__dirname) + '/Login.html');
 });
 
 
-app.get('/signupbtn', (request, response) => {
+app.get('/Signup.html', (request, response) => {
 
 
-    response.sendFile(path.resolve(__dirname) + '/Sign Up.html');
+    response.sendFile(path.resolve(__dirname) + '/Signup.html');
 });
 
 app.post('/signup', (request, response) => {
@@ -98,6 +104,8 @@ var last = request.body.last;
     });
 });
 
+response.sendFile(path.resolve(__dirname) + '/Login.html');
+
 });
 
 
@@ -122,13 +130,13 @@ var insertDocument = function(db, callback) {
     //         response.sendFile(path.resolve(__dirname) + '/Homescreen.html');
     //     }
     //     else{
-    //         response.sendFile(path.resolve(__dirname) + '/Log In.html')
+    //         response.sendFile(path.resolve(__dirname) + '/Login.html')
     //     }
     //
     //
     // }
     // else{
-    //     response.sendFile(path.resolve(__dirname) + '/Sign Up.html')
+    //     response.sendFile(path.resolve(__dirname) + '/Signup.html')
     // }
 
     db.collection('users').find({ "user" : user}).toArray( function(err, doc) {
@@ -139,7 +147,7 @@ var insertDocument = function(db, callback) {
         if( doc.length == 0 ) {
 
             console.log("user wrong, pass not checked");
-            response.sendFile(path.resolve(__dirname) + '/Sign Up.html')
+            response.sendFile(path.resolve(__dirname) + '/Signup.html')
             // do whatever you need to do if it's not there
         }
         else {
@@ -147,7 +155,7 @@ var insertDocument = function(db, callback) {
                 if( doc2.length == 0 ) {
 
                     console.log("user right, pass wrong");
-                    response.sendFile(path.resolve(__dirname) + '/Log In.html')
+                    response.sendFile(path.resolve(__dirname) + '/Login.html')
 
                     // do whatever you need to do if it's not there
                 }
