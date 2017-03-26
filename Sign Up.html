@@ -14,11 +14,14 @@
 <body>
 <div class="div">
     <h2>Sign Up</h2>
-    <input type="text" name="First Name" placeholder="First Name">
-    <input type="text" name="Last Name" placeholder="Last Name">
-    <input type="text" name="Username" placeholder="Your Username...">
-    <input type="password" name="Password" placeholder="Your Password...">
-    <a href="Homescreen.html"><button class="signup">Create An Account</button></a>
+    <form action="/signup" method="POST">
+
+        <input type="firstName" id="first" name="first" placeholder="firstName = scanner.next();">
+        <input type="lastName" id="last" name="last" placeholder="lastName = scanner.next();">
+        <input type="username" id="username" name="username" placeholder="Username = scanner.next();">
+        <input type="password" id="password" name="password" placeholder="Password = scanner.next();">
+        <button type="submit" class="button">Create an Account</button>
+    </form>
 </div>
 
 <style>
